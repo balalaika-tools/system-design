@@ -303,7 +303,7 @@ def validate_jwt(token, secret):
 │      and user.level >= 3                                            │
 │      and current_time.is_business_hours()):                         │
 │      allow_edit()                                                   │
-│                                                                      │
+│                                                                     │
 │  More flexible than RBAC, more complex                              │
 └─────────────────────────────────────────────────────────────────────┘
 ```
